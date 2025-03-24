@@ -19,7 +19,7 @@ myForm.addEventListener("submit", (event) => {
   lists.appendChild(textnode);
   myTasks.appendChild(lists);
 
-  //making delete button to function
+  //making delete button to function 
   let handleDeleteButton = document.createElement("button");
   handleDeleteButton.classList.add("deleteButton");
   let deletemyText = document.createTextNode("  X");
